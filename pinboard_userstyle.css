@@ -1,7 +1,7 @@
 /*
    Original source:
    https://userstyles.org/styles/41551/pinboard-in-less-stark-more-appish-1-0
-  
+
    Heavily modified by me
 */
 
@@ -36,7 +36,7 @@ h2, h3, .settings_heading, td.settings_heading
 }
 
 code {
-	margin-left: 0 !important;
+  margin-left: 0 !important;
 }
 
 #content
@@ -88,7 +88,7 @@ html[xmlns] #content
 }
 
 #user_navbar {
-	display:none;
+  display:none;
 }
 
 #logo .pin_logo
@@ -208,8 +208,8 @@ div.description {
 }
 
 div.description blockquote {
-	background-color:#dedede;
-	padding: 0.5em 1em;
+  background-color:#dedede;
+  padding: 0.5em 1em;
 }
 
 div.description pre,
@@ -281,7 +281,7 @@ div.description pre {
 }
 
 #tag_cloud {
-	display:none;
+  display:none;
 }
 
 #right_bar
@@ -318,20 +318,20 @@ div.description pre {
 }
 
 #search_query_field {
-	font-size: 120%;
-	max-width: 300px;
-	padding: 0.3em;
+  font-size: 120%;
+  max-width: 300px;
+  padding: 0.3em;
 }
 
 #searchbox p {
-	margin-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 #searchbox label[for="fulltext"] {
-	padding-left:0.5em;
+  padding-left:0.5em;
 }
 
 #searchbox input[type="checkbox"] {
-	float: left;
+  float: left;
 }
 
