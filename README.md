@@ -1,10 +1,15 @@
 # Pinboard.in usermods
 ![](screenshot.png)
 
-A userstyle and userscript to make Pinboard prettier.
+A userstyle and userscript to make Pinboard (and Pinboard Notes) slightly more
+attractive, with automatic syntax highlighting for `<code>` blocks.
 
-Incorporates [Prism][] for automatic syntax highlighting of all supported
-languages, as long as your put the code snipped in a block like this:
+Works great with [Fluid][]; looks reasonably OK in Firefox (you'll need
+[Stylus][] and [Tampermonkey][]).
+
+Uses [Prism][]'s [Autoloader][] plugin to dynamically fetch any supported
+language's syntax definition from a CDN. Just put the code snippet in in
+a `<code>` block like this:
 
 ```
 <code class="language-ruby">
@@ -14,13 +19,26 @@ end
 <code>
 ```
 
-Works great with [Fluid][].
+Admittedly that's a bit ungainly (I have a TextExpander snippet that makes it
+less painful). Perhaps I'll add support for GFM-style fenced code blocks some
+time later.
 
+## Bugs
+
+* Clicking the "edit" button and then "save" will remove the syntax
+  highlighting (until you refresh the page); see issue #2
+  
+* All `<code>` blocks will get automatically wrapped with a `<pre>`, so 
+  it's not possible to have an "inline" syntax highlighted code snippet
+  
 ## Credits
 
 Based upon mannieschumpert's
 [Pinboard.in - less stark, more appish 1.0][userstyle] userstyle.
 
-[prism]: http://prismjs.com/
 [fluid]: http://fluidapp.com
+[stylus]: https://add0n.com/stylus.html
+[tampermonkey]: https://tampermonkey.net/
+[prism]: http://prismjs.com/
+[autoloader]: http://prismjs.com/plugins/autoloader/
 [userstyle]: https://userstyles.org/styles/41551/pinboard-in-less-stark-more-appish-1-0
