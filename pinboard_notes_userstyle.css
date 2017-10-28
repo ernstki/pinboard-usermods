@@ -1,0 +1,18 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("notes.pinboard.in") {
+  blockquote.note {
+    font-family: Menlo, Open Sans, Arial, helvetica;
+  }
+
+  blockquote.note a:hover {
+    text-decoration: underline !important;
+  }
+
+  code {
+    margin: inherit !important;
+    padding: 0 3px 2px;
+    color: #222;
+    background: #efefef;
+    font-family: "Ubuntu Mono",Roboto,"DejaVu Sans Mono",monaco,courier,monospace;
+  }
+}
