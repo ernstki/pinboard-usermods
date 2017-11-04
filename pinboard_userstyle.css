@@ -1,13 +1,5 @@
-/*
-   Original source:
-   https://userstyles.org/styles/41551/pinboard-in-less-stark-more-appish-1-0
-
-   Heavily modified by me
-*/
-
 @import url('//fonts.googleapis.com/css?family=PT+Mono');
 @import url('//fonts.googleapis.com/css?family=PT+Sans');
-
 body
 {
   font: 90%/110% "PT Sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif !important;
@@ -23,25 +15,28 @@ body
 {
   color: #42423d !important;
 } */
-
 a:hover
 {
   text-decoration: underline !important;
 }
 
-h2, h3, .settings_heading, td.settings_heading
+h2,
+h3,
+.settings_heading,
+td.settings_heading
 {
   background: #e9e7e0;
   color: #a0998d;
 }
 
-code {
+code
+{
   margin-left: 0 !important;
 }
 
 #content
 {
-  margin-top: 60px;
+  /*margin-top: 60px;*/
   clear: left;
   display: inline-block;
   height: 100%;
@@ -71,14 +66,14 @@ html[xmlns] #content
 
 #banner
 {
-  position: fixed;
+  /*position: fixed;*/
   top: 0px;
   background: #444 !important;
   color: #fff;
   padding: 10px;
-  box-shadow: 0px 2px 3px rgba(0,0,0,0.5);
-  -moz-box-shadow: 0px 2px 3px rgba(0,0,0,0.5);
-  -webkit-box-shadow: 0px 2px 3px rgba(0,0,0,0.5);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
   z-index: 100;
   border-bottom: 1px solid #222 !important;
   border-bottom-right-radius: 10px;
@@ -87,8 +82,9 @@ html[xmlns] #content
   -moz-border-radius-bottomleft: 10px;
 }
 
-#user_navbar {
-  display:none;
+#user_navbar
+{
+  display: none;
 }
 
 #logo .pin_logo
@@ -110,7 +106,8 @@ html[xmlns] #content
   display: none;
 }
 
-#banner a, #banner a.banner_username
+#banner a,
+#banner a.banner_username
 {
   color: #fff !important;
 }
@@ -133,7 +130,7 @@ a.bookmark_title.unread
 
 .bookmark
 {
-  border-left: 4px solid rgba(0,0,0,0) !important;
+  border-left: 4px solid rgba(0, 0, 0, 0) !important;
   border-bottom: 1px dashed #bbb !important;
   padding: 10px 2px 10px 10px !important;
   margin-bottom: 0px !important;
@@ -147,8 +144,9 @@ a.bookmark_title
 .bookmark:hover
 {
   background-color: #f5f5f5;
-  border-left: 4px solid rgba(20,60,120,0.5) !important;
+  border-left: 4px solid rgba(20, 60, 120, 0.5) !important;
 }
+
 
 /*
 a.tag
@@ -166,11 +164,10 @@ a.tag:hover
   background: #eee;
 }
 */
-
 .star
 {
   margin-left: -40px !important;
-  font-size:1.8em !important;
+  font-size: 1.8em !important;
 }
 
 #bookmarks a.edit,
@@ -203,17 +200,20 @@ a.tag:hover
   width: 580px;
 }
 
-div.description {
+div.description
+{
   margin: 1em 0 1em !important;
 }
 
-div.description blockquote {
-  background-color:#dedede;
+div.description blockquote
+{
+  background-color: #dedede;
   padding: 0.5em 1em;
 }
 
 div.description pre,
-div.description code {
+div.description code
+{
   white-space: pre;
   overflow-x: scroll;
   line-height: 1em;
@@ -221,12 +221,14 @@ div.description code {
 
 textarea.description.edit_form_input,
 div.description code,
-div.description pre {
-  padding-top: 0;
+div.description pre
+{
+  /*padding-top: 0;*/
   font: 90%/120% "PT Mono", "Ubuntu Mono", "Inconsolata", Consolas, Menlo, monospace !important;
 }
 
-#edit_bookmark_form {
+#edit_bookmark_form
+{
   background-color: transparent !important;
 }
 
@@ -280,8 +282,9 @@ div.description pre {
   border-top: 1px solid #aaa;
 }
 
-#tag_cloud {
-  display:none;
+#tag_cloud
+{
+  display: none;
 }
 
 #right_bar
@@ -289,14 +292,13 @@ div.description pre {
   background: #f5f5f5;
   border: 1px solid #bbb !important;
   border-bottom: 1px solid #aaa !important;
-  float: right;
   padding: 10px;
-  box-shadow: inset 0px 0px 20px rgba(100,100,100,0.1);
-  -moz-box-shadow: inset 0px 0px 20px rgba(100,100,100,0.1);
-  -webkit-box-shadow: inset 0px 0px 20px rgba(100,100,100,0.1);
+  box-shadow: inset 0px 0px 20px rgba(100, 100, 100, 0.1);
+  -moz-box-shadow: inset 0px 0px 20px rgba(100, 100, 100, 0.1);
+  -webkit-box-shadow: inset 0px 0px 20px rgba(100, 100, 100, 0.1);
   -moz-border-radius: 10px;
   border-radius: 10px;
-  width:320px !important;
+  width: 320px !important;
 }
 
 #right_bar a.tag
@@ -306,7 +308,8 @@ div.description pre {
   background: none;
 }
 
-#right_bar a:link, #right_bar a
+#right_bar a:link,
+#right_bar a
 {
   color: #777 !important;
   font-weight: bold;
@@ -317,21 +320,52 @@ div.description pre {
   color: #555 !important;
 }
 
-#search_query_field {
+#search_query_field
+{
   font-size: 120%;
   max-width: 300px;
   padding: 0.3em;
 }
 
-#searchbox p {
+#searchbox p
+{
   margin-bottom: 0 !important;
 }
 
-#searchbox label[for="fulltext"] {
-  padding-left:0.5em;
+#searchbox label[for="fulltext"]
+{
+  padding-left: 0.5em;
 }
 
-#searchbox input[type="checkbox"] {
+#searchbox input[type="checkbox"]
+{
   float: left;
 }
 
+@media (max-width: 900px)
+{
+  #banner
+  {
+    position: relative;
+    width: auto !important;
+  }
+
+  #content
+  {
+    width: auto !important;
+  }
+
+  #top_menu
+  {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0 1em 0 175px;
+    text-align: right;
+  }
+
+  #right_bar
+  {
+    display: none;
+  }
+}
