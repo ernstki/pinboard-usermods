@@ -19,9 +19,9 @@ end
 <code>
 ```
 
-Admittedly that's a bit ungainly (I have a TextExpander snippet that makes it
-less painful). Perhaps I'll add support for GFM-style fenced code blocks some
-time later.
+Admittedly that's a bit ungainly (I have an [AutoKey script][script] that helps
+make it less painful). Perhaps I'll [add support][mdissue] for GFM-style fenced
+code blocks some time later.
 
 ## Bugs
 
@@ -41,4 +41,6 @@ Based upon mannieschumpert's
 [tampermonkey]: https://tampermonkey.net/
 [prism]: http://prismjs.com/
 [autoloader]: http://prismjs.com/plugins/autoloader/
+[script]: https://github.com/ernstki/autokey-config/blob/master/data/webdevel/Code%20from%20clipboard.py
+[mdissue]: ../../issues/6
 [userstyle]: https://userstyles.org/styles/41551/pinboard-in-less-stark-more-appish-1-0
