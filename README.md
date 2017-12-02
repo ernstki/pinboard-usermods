@@ -9,7 +9,7 @@ Works great with [Fluid][]; looks reasonably OK in Firefox (you'll need
 
 Uses [Prism][]'s [Autoloader][] plugin to dynamically fetch any supported
 language's syntax definition from a CDN. Just put the code snippet in in
-a `<code>` block like this:
+a `<code>` block with a `class` attribute like this:
 
 ```
 <code class="language-ruby">
@@ -18,6 +18,7 @@ a `<code>` block like this:
 end
 <code>
 ```
+([list of supported languages][langs])
 
 Admittedly that's a bit ungainly (I have an [AutoKey script][script] that helps
 make it less painful). Perhaps I'll [add support][mdissue] for GFM-style fenced
@@ -41,6 +42,7 @@ Based upon mannieschumpert's
 [tampermonkey]: https://tampermonkey.net/
 [prism]: http://prismjs.com/
 [autoloader]: http://prismjs.com/plugins/autoloader/
+[langs]: http://prismjs.com/#languages-list
 [script]: https://github.com/ernstki/autokey-config/blob/master/data/webdevel/Code%20from%20clipboard.py
 [mdissue]: ../../issues/6
 [userstyle]: https://userstyles.org/styles/41551/pinboard-in-less-stark-more-appish-1-0
