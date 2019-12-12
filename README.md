@@ -27,15 +27,17 @@ code blocks some time later.
 ## Bugs
 
 * Clicking the "edit" button and then "save" will remove the syntax
-  highlighting (until you refresh the page); see issue #2
+  highlighting (until you refresh the page); see #2.
   
 * All `<code>` blocks will get automatically wrapped with a `<pre>`, so 
   it's not possible to have an "inline" syntax highlighted code snippet
   
 ## Credits
 
-Based upon mannieschumpert's
-[Pinboard.in - less stark, more appish 1.0][userstyle] userstyle.
+Credit for the design goes entirely to mannieschumpert's
+[Pinboard.in - less stark, more appish 1.0][userstyle] userstyle. My
+contributions are limited to some extra styles for Pinboard Notes and the
+addition of syntax highlighting with Prism.js.
 
 [fluid]: http://fluidapp.com
 [stylus]: https://add0n.com/stylus.html
@@ -43,6 +45,6 @@ Based upon mannieschumpert's
 [prism]: http://prismjs.com/
 [autoloader]: http://prismjs.com/plugins/autoloader/
 [langs]: http://prismjs.com/#languages-list
-[script]: https://github.com/ernstki/autokey-config/blob/master/data/webdevel/Code%20from%20clipboard.py
+[script]: https://github.com/ernstki/autokey-config/blob/master/data/webdevel/Code%20from%20clipboard1.py
 [mdissue]: ../../issues/6
 [userstyle]: https://userstyles.org/styles/41551/pinboard-in-less-stark-more-appish-1-0
