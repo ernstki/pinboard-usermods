@@ -47,4 +47,4 @@ addition of syntax highlighting with Prism.js.
 [langs]: http://prismjs.com/#languages-list
 [script]: https://github.com/ernstki/autokey-config/blob/master/data/webdevel/Code%20from%20clipboard1.py
 [mdissue]: ../../issues/6
-[userstyle]: https://userstyles.org/styles/41551/pinboard-in-less-stark-more-appish-1-0
+[userstyle]: https://web.archive.org/web/20120903063906/http://userstyles.org/styles/41551/pinboard-in-less-stark-more-appish-1-0

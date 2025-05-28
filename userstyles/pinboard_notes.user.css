@@ -1,0 +1,26 @@
+/* ==UserStyle==
+ * @name         Pinboard Notes
+ * @description  Improve the appearance of Pinboard Notes
+ * @namespace    github.com/ernstki/pinboard-usermods/userstyles
+ * @author       Kevin Ernst <ernstki -at- mail.uc.eud>
+ * @version      1.0.0
+==/UserStyle== */
+
+/* ref: https://github.com/openstyles/stylus/wiki/Writing-UserCSS#more-examples */
+@-moz-document domain("notes.pinboard.in") {
+  blockquote.note {
+    font-family: Menlo, Open Sans, Arial, helvetica;
+  }
+
+  blockquote.note a:hover {
+    text-decoration: underline !important;
+  }
+
+  code {
+    margin: inherit !important;
+    padding: 0 3px 2px;
+    color: #222;
+    background: #efefef;
+    font-family: "Ubuntu Mono",Roboto,"DejaVu Sans Mono",monaco,courier,monospace;
+  }
+}

@@ -1,3 +1,14 @@
+/* ==UserStyle==
+ * @name         Pinboard appish
+ * @description  Based on the Pinboard userstyle by lwallenstein; features: a slightly textured background, tags that look more like tags do in apps, a fixed-position header, more hover-indication
+ * @namespace    github.com/ernstki/pinboard-usermods/userstyles
+ * @author       mannieschumpert
+ * @homepageURL  https://web.archive.org/web/20120903063906/http://userstyles.org/styles/41551/pinboard-in-less-stark-more-appish-1-0
+ * @updateURL    https://github.com/ernstki/pinboard-usermods/userstyles/pinboard.user.css
+ * @version      1.0.0
+==/UserStyle== */
+
+/* ref: https://github.com/openstyles/stylus/wiki/Writing-UserCSS#more-examples */
 @-moz-document url-prefix("https://pinboard.in/") {
   @import url('//fonts.googleapis.com/css?family=PT+Mono');
   @import url('//fonts.googleapis.com/css?family=PT+Sans');
