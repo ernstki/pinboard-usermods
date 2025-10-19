@@ -1,4 +1,9 @@
 # Pinboard.in usermods
+
+_**Archived for now**, mostly so I stop confusing myself about where the
+latest version of this script is (in Tampermonkey, synced to cloud
+storage)._
+
 ![](screenshot.png)
 
 A userstyle and userscript to make Pinboard (and Pinboard Notes) slightly more
